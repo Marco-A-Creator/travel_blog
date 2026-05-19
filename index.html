@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog Main</title>
+
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg" />
+
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-navbar">
+            <a href="index.html">
+                <img src="./assets/icons/logo.png" alt="Blog Logo" /></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="highlights-pseudo" href="index.html#highlights">Highlights</a></li>
+                    <li><a class="faq-pseudo" href="index.html#faq">FAQ</a></li>
+                    <li><a class="contact-pseudo" href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overflow-area">
+                <img class="hero-background" src="./assets/img/index/landing-photo.png" alt="Cappadocia">
+                <img class="hero-animation-cover" src="./assets/img/index/landing-photo-cover.png" alt="Yellow Cover">
+                <img class="hero-animation-one" src="./assets/img/index/landing-photo-cover-01.png"
+                    alt="Yellow Cover transition">
+            </div>
+
+            <img class="hero-animation-two" src="./assets/img/index/landing-photo-cover-02.png"
+                alt="Yellow Cover final">
+
+            <div class="hero-content">
+                <h1>Cappadocia</h1>
+                <p>From sunrise balloons to hidden cave dwellings, every moment feels unreal in the best way.</p>
+            </div>
+
+            <div class="hero-animation-circle">
+                <img class="hero-animation-circle-text" src="./assets/icons/cappadocia-turkey.png"
+                    alt="Cappadocia circle">
+                <img class="hero-flag" src="./assets/icons/turkey.png" alt="Turkey flag">
+            </div>
+        </section>
+
+        <section class="content">
+            <section id="highlights" class="highlights">
+                <div class="highlights-top">
+                    <div class="section-heading">
+                        <img src="./assets/icons/rocket-launch.png" alt="Rocket" />
+                        <h2>Highlights</h2>
+                    </div>
+                    <h5>
+                        From the vibrant cultures of Asia to the sun-drenched islands of
+                        the Caribbean and the serene landscapes of Scandinavia, each
+                        destination offers a distinct way to explore the world.
+                    </h5>
+                </div>
+
+                <div class="slider-main">
+                    <input type="radio" name="slider" value="one" checked />
+                    <input type="radio" name="slider" value="two" />
+                    <input type="radio" name="slider" value="three" />
+                    <input type="radio" name="slider" value="four" />
+
+                    <div class="slider-main-wrapper">
+                        <div class="slider-main-element element-one">
+                            <a href="./article01.html" class="slider-main-link">
+                                <div class="highlights-slider-text">
+                                    <h3>
+                                        <span>The World's Most Breathtaking</span>
+                                        <span>Beaches</span>
+                                    </h3>
+                                    <p>
+                                        From powder-soft white sands to dramatic coastlines kissed
+                                        by turqoise waves, these beaches are more than
+                                        destinations - they're feelings.
+                                    </p>
+                                </div>
+                                <img src="./assets/img/index/header-photo04.png" alt="Photo 01" />
+                            </a>
+                        </div>
+                        <div class="slider-main-element element-two">
+                            <a href="article02.html" class="slider-main-link">
+                                <div class="highlights-slider-text">
+                                    <h3>
+                                        <span>Copenhagen in 3 Days: Big</span>
+                                        <span>Experiences, Smart Spending</span>
+                                    </h3>
+                                    <p>
+                                        Discover Copenhagen, where historic charm meets modern
+                                        design, vibrant cycling culture and waterfront living.
+                                    </p>
+                                </div>
+                                <img src="./assets/img/index/header-photo03.png" alt="Photo 02" />
+                            </a>
+                        </div>
+                        <div class="slider-main-element element-three">
+                            <a href="article03.html" class="slider-main-link">"
+                                <div class="highlights-slider-text">
+                                    <h3>
+                                        <span>Pattaya Pulse:</span>
+                                        <span>Food, Sun and Neon Nights</span>
+                                    </h3>
+                                    <p>
+                                        From bustling promenades to nearby islands, the city offers
+                                        an energetic and diverse escape. Discover Pattaya City, with
+                                        vibrant nightlife and rich cultural landmarks.
+                                    </p>
+                                </div>
+                                <img src="./assets/img/index/header-photo02.png" alt="Photo 03" />
+                            </a>
+                        </div>
+                        <div class="slider-main-element element-four">
+                            <div class="highlights-slider-text">
+                                <h3>Mountain Fuji</h3>
+                                <p>
+                                    The most iconic mountain and an active volcano located about
+                                    100 kilometers southwest of Tokyo. Written with the
+                                    characters for "wealth" and "samurai," Fuji's name evokes a
+                                    sense of strength, honor, and enduring prestige.
+                                </p>
+                            </div>
+                            <img src="./assets/img/index/header-photo01.png" alt="Photo 04" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="faq" class="faq">
+                <div class="section-heading">
+                    <img src="./assets/icons/live-help.png" alt="FAQ" />
+                    <h2>FAQ</h2>
+                </div>
+
+                <div class="accordions">
+                    <details>
+                        <summary>What’s the story behind my travel blog?</summary>
+                        <p>
+                            This blog started as a personal journal during my first long journey abroad.
+                            What began as simple notes about places, food, and people slowly turned into
+                            a passion for sharing travel experiences. Today, the blog is a collection of
+                            stories, guides, and tips designed to inspire others to explore the world
+                            and discover destinations beyond the usual tourist paths.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>How do I plan, document, and share my travels?</summary>
+                        <p>
+                            Every trip begins with research, curiosity, and a flexible itinerary.
+                            I look for unique local experiences, hidden gems, and cultural highlights.
+                            During my travels I document everything through photos, notes, and short
+                            reflections, which later become detailed travel guides and stories here on
+                            the blog. The goal is to give readers practical advice while also capturing
+                            the feeling of each destination.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            How can brands, companies, or fellow creators collaborate with
+                            me or get in touch?
+                        </summary>
+                        <p>
+                            I’m always open to meaningful collaborations with travel brands,
+                            tourism boards, and fellow creators who share a passion for exploration.
+                            Whether it’s destination features, product reviews, or creative travel
+                            campaigns, I enjoy working on projects that inspire people to travel.
+                            Feel free to use the contact form below to discuss ideas or partnership
+                            opportunities.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            How can readers support this blog and the work behind it?
+                        </summary>
+                        <p>
+                            The best way to support the blog is simply by reading, sharing articles,
+                            and recommending them to fellow travelers. You can also follow the blog
+                            on social media to stay updated on new destinations and travel stories.
+                            Your engagement and feedback help keep this project alive and motivate
+                            future adventures.
+                        </p>
+                    </details>
+                </div>
+
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="contact-head">
+                    <div class="section-heading">
+                        <img src="./assets/icons/person-pin.png" alt="Contact" />
+                        <h2>Contact Form</h2>
+                    </div>
+                    <h5><span>Have a question or an idea to collaborate? </span><span>Get in touch—I’d love to hear from
+                            you and explore how we can work together</span></h5>
+                </div>
+
+                <form action="mailto:example@mail.com" method="post" enctype="text/plain">
+                    <div class="contact-inputs">
+                        <div class="contact-inputs-top">
+                            <div class="contact-top-one">
+                                <div class="contact-top-textfield cto-label-one">
+                                    <label for="name">What's your name?</label>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                                <div class="contact-top-textfield cto-label-one">
+                                    <label for="email">What's your email?</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="contact-top-two">
+                                <div class="contact-top-textfield cto-label-two">
+                                    <label for="help">How can i help?</label>
+                                    <textarea type="text" id="help" name="help"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-inputs-bottom">
+                            <div class="cib-checkbox">
+                                <label class="checkbox-container"><span>I've read the
+                                        <a href="">privacy policy</a>
+                                        and agree </span><span>to the processing of my data as outlined.</span>
+                                    <input type="checkbox" id="checkbox-privacy" name="privacy" class="checkbox-privacy"
+                                        required>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <div class="checkbox-error">
+                                    <p>Please accept the privacy policy.</p>
+                                </div>
+                            </div>
+                            <button type="submit" class="send-button">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <div class="copyright">
+                    <img src="./assets/icons/copyright.png" alt="copyright">
+                    <p>Travel Blog 2026</p>
+                </div>
+                <div class="imprint-cookie">
+                    <p>Imprint</p>
+                    <p>Cookie Preferences</p>
+                </div>
+            </div>
+            <div class="footer-content-right">
+                <a href="https://www.tiktok.com/de-DE/"><img src="./assets/icons/tiktok-icon.png" alt="tiktok"></a>
+                <a href="https://www.youtube.com/"><img src="./assets/icons/youtube.png" alt="youtube"></a>
+                <a href="https://www.facebook.com/"><img src="./assets/icons/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="./assets/icons/instagram-logo-2016.png" alt="insta"></a>
+            </div>
+        </div>
+    </footer>
+
+    <nav class="mobile-nav">
+        <a href="index.html"><img src="./assets/icons-mobile/home.png" alt="Home"></a>
+        <a href="index.html#highlights"><img src="./assets/icons-mobile/rocket-launch.png" alt="Rocket"></a>
+        <a href="index.html#faq"><img src="./assets/icons-mobile/live-help.png" alt="FAQ"></a>
+        <a href="index.html#contact"><img src="./assets/icons-mobile/person-pin.png" alt="Contact"></a>
+    </nav>
+
+</body>
+
+</html>
